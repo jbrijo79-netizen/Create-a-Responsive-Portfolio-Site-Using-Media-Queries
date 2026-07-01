@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Web Developer | Designer | Student</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about">
+        <img src="https://via.placeholder.com/200" alt="Profile Image">
+        <div>
+            <h2>About Me</h2>
+            <p>
+                Hello! I am a web developer passionate about creating
+                responsive and user-friendly websites using HTML, CSS,
+                and JavaScript.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <h2 style="text-align:center;">My Projects</h2>
+
+        <div class="projects">
+            <div class="card">
+                <h3>Project 1</h3>
+                <p>Portfolio Website</p>
+            </div>
+
+            <div class="card">
+                <h3>Project 2</h3>
+                <p>Student Management System</p>
+            </div>
+
+            <div class="card">
+                <h3>Project 3</h3>
+                <p>Online Shopping Website</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
